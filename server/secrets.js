@@ -1,5 +1,5 @@
 const secrets = {
-  dbUri: process.env.DB_URI || 'YOUR MONGODB URI HERE',
+  dbUri: process.env.DB_URI || 'mongourihere',
 };
 
 const getSecret = (key) => secrets[key];
